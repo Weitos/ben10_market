@@ -1,7 +1,7 @@
 import asyncio
 import logging
-from tele.bot import TeleBot
-from tele.handlers import router
+from src.tele.bot import TeleBot
+from src.tele.handlers import router
 import os
 from dotenv import load_dotenv
 
@@ -25,12 +25,11 @@ async def main():
     try:
         # Initialize the bot
         bot = TeleBot()
-        
         # Register handlers
         bot.dp.include_router(router)
-        
         # Start polling
         logger.info("Starting Ben 10 Market Bot...")
+        # 3. Запускаем лонг-поллинг
         await bot.start_polling()
         
     except KeyboardInterrupt:

@@ -12,7 +12,7 @@ Base = declarative_base()
 
 # Оригинальные HEX-цвета для openpyxl
 GREEN_FILL = PatternFill(start_color="E2EFDA", end_color="E2EFDA", fill_type="solid")
-RED_FILL = PatternFill(start_color="FCE4D6", end_color="FCE4D6", fill_type="solid")
+RED_FILL   = PatternFill(start_color="FCE4D6", end_color="FCE4D6", fill_type="solid")
 
 
 class ProductModel(Base):

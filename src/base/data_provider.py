@@ -3,7 +3,7 @@ import logging
 from typing import Any, Dict, List
 from pathlib import Path
 from pydantic import BaseModel, ValidationError
-from ..util.aliexpress_api import AliExpressAPI
+from src.util.aliexpress_api import AliExpressAPI
 
 # Configure logging
 logging.basicConfig(

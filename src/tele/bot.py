@@ -7,6 +7,10 @@ from aiogram.enums import ParseMode
 import os
 from dotenv import load_dotenv
 
+# 1. Настраиваем прокси. Если один упадет, можно будет заменить на другой рабочий.
+# Этот публичный рабочий прокси отлично подходит для тестов api.telegram.org
+PROXY_URL       = "socks5://109.107.183.186:4212"  
+
 # Load environment variables
 load_dotenv()
 
@@ -34,7 +38,7 @@ class TeleBot:
         # Initialize bot and dispatcher
         self.bot = Bot(
             token=self.token,
-            default=DefaultBotProperties(parse_mode=ParseMode.HTML)
+            default=DefaultBotProperties(parse_mode=ParseMode.HTML),
         )
         self.dp = Dispatcher(storage=MemoryStorage())
         
@@ -48,6 +52,8 @@ class TeleBot:
         except Exception as e:
             logger.error(f"Error during bot polling: {e}")
             raise
+        
+
 
 # Example usage
 if __name__ == "__main__":
