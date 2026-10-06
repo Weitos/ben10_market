@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Часы Омнитрикс V2",
+        "price": 4783,
+        "cost_price": 3274,
+        "commission_pct": 0.24,
+        "barcode": "7347850466120"
+    },
+    {
+        "id": 2,
+        "name": "Фигурка Человека-огня (Heatblast)",
+        "price": 1861,
+        "cost_price": 1036,
+        "commission_pct": 0.11,
+        "barcode": "2068963784754"
+    },
+    {
+        "id": 3,
+        "name": "Фигурка Алмаза (Diamondhead)",
+        "price": 1841,
+        "cost_price": 1295,
+        "commission_pct": 0.14,
+        "barcode": "9626745373947"
+    },
+    {
+        "id": 4,
+        "name": "Фигурка Силача (Four Arms)",
+        "price": 3825,
+        "cost_price": 3025,
+        "commission_pct": 0.23,
+        "barcode": "6118421041186"
+    },
+    {
+        "id": 5,
+        "name": "Фигурка Молнии (XLR8)",
+        "price": 4266,
+        "cost_price": 2329,
+        "commission_pct": 0.19,
+        "barcode": "4722167081051"
+    },
+    {
+        "id": 6,
+        "name": "Игрушечный космолет Рука Гальвана",
+        "price": 4566,
+        "cost_price": 2839,
+        "commission_pct": 0.25,
+        "barcode": "9601444234756"
+    },
+    {
+        "id": 7,
+        "name": "Настольная игра 'Бен 10: Спасение Земли'",
+        "price": 1908,
+        "cost_price": 1345,
+        "commission_pct": 0.22,
+        "barcode": "8196782388830"
+    },
+    {
+        "id": 8,
+        "name": "Рюкзак школьный с принтом Бен 10",
+        "price": 2105,
+        "cost_price": 1136,
+        "commission_pct": 0.18,
+        "barcode": "9763531725902"
+    },
+    {
+        "id": 9,
+        "name": "Светящийся макет Омнитрикса",
+        "price": 3628,
+        "cost_price": 2528,
+        "commission_pct": 0.15,
+        "barcode": "9938766525840"
+    },
+    {
+        "id": 10,
+        "name": "Фигурка Гуманоида (Grey Matter)",
+        "price": 4994,
+        "cost_price": 2426,
+        "commission_pct": 0.24,
+        "barcode": "0940156953621"
+    }
+]
